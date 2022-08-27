@@ -15,6 +15,9 @@ namespace EcommerceWebAPPService.Model
         public string? ProdDetails { get; set; }
         public string? Catagory { get; set; }
         public int Price { get; set; }
+
+        [Display(Name = "Image")]
+        public string ProfilePicture { get; set; }
     }
         
 }
